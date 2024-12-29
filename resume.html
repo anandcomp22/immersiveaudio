@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Tag -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Seo Meta -->
+    <meta name="description" content="E-Bio - Personal Portfolio HTML Template">
+    <meta name="keywords" content="portfolio template, portfolio, personal template, responsive portfolio, personal, themeforest, html portfolio template, css3, html5">
+
+    <title>E-Bio - Personal Portfolio HTML Template</title>
+
+    <!-- Favicon -->
+    <link href="assets/images/logos/favicon.png" rel="icon">
+
+    <!-- IOS Touch Icons -->
+    <link rel="apple-touch-icon" href="assets/images/logos/touch-icon-iphone.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/logos/touch-icon-ipad.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="assets/images/logos/touch-icon-ipad-retina.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/logos/touch-icon-iphone-retina.png">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Rose:wght@300..700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link href="assets/css/plugins.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/styles.css" rel="stylesheet" type="text/css">
+</head>
+<body data-barba="wrapper" data-magic-cursor="true">
+
+    <!-- Page loader [[ Find at scss/components/loader.scss ]] -->
+    <div id="loader">
+        <span id="loader_text" data-splitting>loading</span>
+        <svg id="loader_shape" width="100%" height="100vh" preserveAspectRatio="none" viewBox="0 0 1440 800">
+			<path d="M -44,-50 C -52.71,28.52 15.86,8.186 184,14.69 383.3,22.39 462.5,12.58 638,14 835.5,15.6 987,6.4 1194,13.86 1661,30.68 1652,-36.74 1582,-140.1 1512,-243.5 15.88,-589.5 -44,-50 Z" 
+            data-path="M -44,-50 C -137.1,117.4 67.86,445.5 236,452 435.3,459.7 500.5,242.6 676,244 873.5,245.6 957,522.4 1154,594 1593,753.7 1793,226.3 1582,-126 1371,-478.3 219.8,-524.2 -44,-50 Z" />
+		</svg>
+    </div>
+
+    <div data-barba="container" data-barba-namespace="default">
+    
+        <!-- Start:: Header [[ Find at scss/components/header.scss ]] -->
+        <header id="header">
+            <!-- Start:: Container [[ Find at scss/utilities/grid.scss ]] -->
+            <div class="container">
+                <!-- Header left -->
+                <div class="header-link">
+                    <a href="homepage-1.html" class="brand">
+                        <img src="assets/images/logos/logo.svg" alt="">
+                        <div class="hidden">Logo</div>
+                    </a>
+                    <ul id="lang">
+                        <li>
+                            <a href="homepage-1.html" class="active">EN</a>
+                        </li>
+                        <li>
+                            <a href="homepage-1-rtl.html">AR</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Header right -->
+                <div class="header-link">
+                    <a role="button" class="button button--primary" data-modal="#contact_modal">
+                        <img src="assets/images/icons/email.svg" class="svg" alt="">
+                        <div class="hidden">Contact</div>
+                        <div class="button__inner">
+                            <span data-text="Get in Touch">Get in Touch</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- End:: Container -->
+        </header>
+        <!-- End:: Header -->
+
+        <!-- Start:: Main [[ Find at scss/framework/core.scss ]] -->
+        <main id="main">
+
+            <!-- Start:: Inner intro section [[ Find at scss/components/intro.scss ]] -->
+            <section id="inner_intro">
+                <!-- Start:: Container [[ Find at scss/utilities/grid.scss ]] -->
+                <div class="container">
+                    <!-- Start:: Page head [[ Find at scss/framework/core.scss ]] -->
+                    <div class="page-head">
+                        <div class="page-head__title">
+                            <h1 class="fw-normal fs-64">Professional <span class="fw-light">Journey</span></h1>
+                        </div>
+                        <div class="page-head__content">
+                            <p>Explore my professional journey, highlighting key experiences and achievements. From my educational background to career milestones, discover the path that has shaped my expertise, skills, and passion for my work.</p>
+                        </div>
+                    </div>
+                    <!-- End:: Page head -->
+
+                    <!-- Start:: Resume cover [[ Find at scss/framework/resume.scss ]] -->
+                    <div class="resume-cover" data-animate="fade-up">
+                        <img src="assets/images/hero/resume.jpg" class="resume-cover__hero" alt="">
+                        <a href="#" class="resume-cover__link" download>
+                            <img src="assets/images/hero/download.svg" alt="">
+                            <span class="hidden">Download</span>
+                        </a>
+                    </div>
+                    <!-- End:: Resume cover -->
+                </div>
+                <!-- End:: Container -->
+            </section>
+            <!-- End:: Inner intro section -->
+
+            <!-- Start:: Section [[ Find at scss/framework/core.scss ]] -->
+            <section class="section">
+                <!-- Start:: Container [[ Find at scss/utilities/grid.scss ]] -->
+                <div class="container">
+                    <!-- Section head -->
+                    <div class="section__head" data-animate="fade-up">
+                        <div class="section__subtitle">Education</div>
+                        <h2 class="section__title fw-normal">Academic <span class="fw-light">Background</span> and Achievements</h2>
+                    </div>
+
+                    <!-- Start:: Education [[ Find at scss/framework/resume.scss ]] -->
+                    <div class="row education">
+                        <!-- Education item -->
+                        <div class="education__item" data-animate="fade-up">
+                            <!-- Start:: Card [[ Find at scss/components/card.scss ]] -->
+                            <div class="card">
+                                <div class="card__body">
+                                    <p class="fw-semibold">2010-2014</p>
+                                    <p class="fw-medium">XYZ University</p>
+                                </div>
+                                <div class="card__foot">
+                                    <div class="fw-normal h5">Bachelor of Science in Computer Science</div>
+                                </div>
+                            </div>
+                            <!-- End:: Card -->
+                        </div>
+
+                        <!-- Education item -->
+                        <div class="education__item" data-animate="fade-up">
+                            <!-- Start:: Card [[ Find at scss/components/card.scss ]] -->
+                            <div class="card">
+                                <div class="card__body">
+                                    <p class="fw-semibold">2015-2017</p>
+                                    <p class="fw-medium">ABC Institute of Technology</p>
+                                </div>
+                                <div class="card__foot">
+                                    <div class="fw-normal h5">Master of Science in Information Technology</div>
+                                </div>
+                            </div>
+                            <!-- End:: Card -->
+                        </div>
+
+                        <!-- Education content -->
+                        <div class="education__content" data-animate="fade-up">
+                            <!-- Start:: Card [[ Find at scss/components/card.scss ]] -->
+                            <div class="card">
+                                <div class="card__body">
+                                    <div class="fw-normal h4">6+ Courses</div>
+                                    <p>Completed courses from top online platforms and institutions.</p>
+                                </div>
+                            </div>
+                            <!-- End:: Card -->
+                        </div>
+
+                        <!-- Education image -->
+                        <div class="education__image" data-animate="fade-up">
+                            <!-- Start:: Card [[ Find at scss/components/card.scss ]] -->
+                            <div class="card card--cover">
+                                <img src="assets/images/hero/education.jpg" alt="">
+                            </div>
+                            <!-- End:: Card -->
+                        </div>
+
+                        <!-- Education item -->
+                        <div class="education__item" data-animate="fade-up">
+                            <!-- Start:: Card [[ Find at scss/components/card.scss ]] -->
+                            <div class="card">
+                                <div class="card__body">
+                                    <p class="fw-semibold">2018</p>
+                                    <p class="fw-medium">Web Development Bootcamp</p>
+                                </div>
+                                <div class="card__foot">
+                                    <div class="fw-normal h5">Code Academy</div>
+                                </div>
+                            </div>
+                            <!-- End:: Card -->
+                        </div>
+
+                        <!-- Education item -->
+                        <div class="education__item" data-animate="fade-up">
+                            <!-- Start:: Card [[ Find at scss/components/card.scss ]] -->
+                            <div class="card">
+                                <div class="card__body">
+                                    <p class="fw-semibold">2019-2020</p>
+                                    <p class="fw-medium">Design Thinking Institute</p>
+                                </div>
+                                <div class="card__foot">
+                                    <div class="fw-normal h5">Certification in UX/UI Design</div>
+                                </div>
+                            </div>
+                            <!-- End:: Card -->
+                        </div>
+                    </div>
+                    <!-- End:: Education -->
+                </div>
+                <!-- End:: Container -->
+            </section>
+            <!-- End:: Section -->
+
+            <!-- Start:: Section [[ Find at scss/framework/core.scss ]] -->
+            <section class="section overflow-visible">
+                <!-- Start:: Container [[ Find at scss/utilities/grid.scss ]] -->
+                <div class="container">
+                    <!-- Section head -->
+                    <div class="section__head" data-animate="fade-up">
+                        <h2 class="section__title fw-normal">Professional <span class="fw-light">Experience</span> and Expertise</h2>
+                    </div>
+
+                    <!-- Start:: Row [[ Find at scss/utilities/grid.scss ]] -->
+                    <div class="row">
+                        <!-- Start:: Expertise [[ Find at scss/framework/resume.scss ]] -->
+                        <div class="expertise">
+                            <!-- Start:: Card [[ Find at scss/components/card.scss ]] -->
+                            <div class="card">
+                                <div class="card__body">
+                                    <!-- Expertise item -->
+                                    <div class="expertise__item">
+                                        <p class="fw-medium">Figma</p>
+                                        <div class="progress" role="progressbar" aria-label="Figma" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress__bar" data-animate="width" data-width="90%"></div>
+                                        </div>
+                                    </div>
+                                    <!-- Expertise item -->
+                                    <div class="expertise__item">
+                                        <p class="fw-medium">HTML</p>
+                                        <div class="progress" role="progressbar" aria-label="Figma" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress__bar" data-animate="width" data-width="98%"></div>
+                                        </div>
+                                    </div>
+                                    <!-- Expertise item -->
+                                    <div class="expertise__item">
+                                        <p class="fw-medium">UI/UX Design</p>
+                                        <div class="progress" role="progressbar" aria-label="Figma" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress__bar" data-animate="width" data-width="89%"></div>
+                                        </div>
+                                    </div>
+                                    <!-- Expertise item -->
+                                    <div class="expertise__item">
+                                        <p class="fw-medium">React js</p>
+                                        <div class="progress" role="progressbar" aria-label="Figma" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress__bar" data-animate="width" data-width="90%"></div>
+                                        </div>
+                                    </div>
+                                    <!-- Expertise item -->
+                                    <div class="expertise__item">
+                                        <p class="fw-medium">Angular</p>
+                                        <div class="progress" role="progressbar" aria-label="Figma" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress__bar" data-animate="width" data-width="85%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End:: Card -->
+                        </div>
+                        <!-- End:: Expertise -->
+
+                        <!-- Start:: Experience [[ Find at scss/framework/resume.scss ]] -->
+                        <div class="experience">
+                            <!-- Start:: Experience item [[ Find at scss/framework/resume.scss ]] -->
+                            <div class="experience__item" data-animate="fade-up">
+                                <!-- Start:: Row [[ Find at scss/utilities/grid.scss ]] -->
+                                <div class="row">
+                                    <div class="experience__title">
+                                        <p class="fw-semibold">2023 - Present</p>
+                                        <div class="fw-normal h4">Nexus Design Hub</div>
+                                    </div>
+                                    <div class="experience__content">
+                                        <p class="fw-semibold experience__content__title">UI/UX Team Leader</p>
+                                        <p>Lead UI/UX Team Leader at Nexus Design Hub, driving innovative user experiences and seamless design solutions for top-tier projects.</p>
+                                    </div>
+                                </div>
+                                <!-- End:: Row -->
+                            </div>
+                            <!-- End:: Experience item -->
+
+                            <!-- Start:: Experience item [[ Find at scss/framework/resume.scss ]] -->
+                            <div class="experience__item" data-animate="fade-up" data-animate-delay="200">
+                                <!-- Start:: Row [[ Find at scss/utilities/grid.scss ]] -->
+                                <div class="row">
+                                    <div class="experience__title">
+                                        <p class="fw-semibold">2019 - 23</p>
+                                        <div class="fw-normal h4">PixelCraft Studios</div>
+                                    </div>
+                                    <div class="experience__content">
+                                        <p class="fw-semibold experience__content__title">Front-end Developer</p>
+                                        <p>Front-end Developer at PixelCraft Studios, creating responsive and engaging web interfaces with cutting-edge technologies and design principles.</p>
+                                    </div>
+                                </div>
+                                <!-- End:: Row -->
+                            </div>
+                            <!-- End:: Experience item -->
+
+                            <!-- Start:: Experience item [[ Find at scss/framework/resume.scss ]] -->
+                            <div class="experience__item" data-animate="fade-up" data-animate-delay="400">
+                                <!-- Start:: Row [[ Find at scss/utilities/grid.scss ]] -->
+                                <div class="row">
+                                    <div class="experience__title">
+                                        <p class="fw-semibold">2017 - 19</p>
+                                        <div class="fw-normal h4">BrightWave Innovations</div>
+                                    </div>
+                                    <div class="experience__content">
+                                        <p class="fw-semibold experience__content__title">UI/UX Designer</p>
+                                        <p>UI/UX Designer at BrightWave Innovations, crafting intuitive and visually appealing user experiences for diverse digital platforms.</p>
+                                    </div>
+                                </div>
+                                <!-- End:: Row -->
+                            </div>
+                            <!-- End:: Experience item -->
+                        </div>
+                        <!-- End:: Experience -->
+                    </div>
+                    <!-- End:: Row -->
+                </div>
+                <!-- End:: Container -->
+            </section>
+            <!-- End:: Section -->
+
+            <!-- Start:: Section [[ Find at scss/framework/core.scss ]] -->
+            <section class="section">
+                <!-- Start:: Container [[ Find at scss/utilities/grid.scss ]] -->
+                <div class="container">
+                    <!-- Section head -->
+                    <div class="section__head text-center" data-animate="fade-up">
+                        <h2 class="fw-normal">Awards & <span class="fw-light">Achievements</span></h2>
+                    </div>
+
+                    <!-- Start:: Logo marquee -->
+                    <div class="swiper swiper--visible swiper--slide-stretch" data-marquee="true" data-animate="fade-up">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <!-- Start:: Card [[ Find at scss/components/card.scss ]] -->
+                                <div class="card award-card">
+                                    <div class="card__body">
+                                        <p class="fw-semibold">2018</p>
+                                        <div class="fw-normal h4">Best UI/UX Designer</div>
+                                    </div>
+                                    <div class="card__foot text-right">
+                                        <img src="assets/images/clients/1.svg" alt="">
+                                    </div>
+                                </div>
+                                <!-- End:: Card -->
+                            </div>
+                            <div class="swiper-slide">
+                                <!-- Start:: Card [[ Find at scss/components/card.scss ]] -->
+                                <div class="card award-card">
+                                    <div class="card__body">
+                                        <p class="fw-semibold">2019</p>
+                                        <div class="fw-normal h4">Best UI/UX Designer</div>
+                                    </div>
+                                    <div class="card__foot text-right">
+                                        <img src="assets/images/clients/2.svg" alt="">
+                                    </div>
+                                </div>
+                                <!-- End:: Card -->
+                            </div>
+                            <div class="swiper-slide">
+                                <!-- Start:: Card [[ Find at scss/components/card.scss ]] -->
+                                <div class="card award-card">
+                                    <div class="card__body">
+                                        <p class="fw-semibold">2020</p>
+                                        <div class="fw-normal h4">Graphic of the Year</div>
+                                    </div>
+                                    <div class="card__foot text-right">
+                                        <img src="assets/images/clients/3.svg" alt="">
+                                    </div>
+                                </div>
+                                <!-- End:: Card -->
+                            </div>
+                            <div class="swiper-slide">
+                                <!-- Start:: Logo title [[ Find at scss/framework/about.scss ]] -->
+                                <div class="card award-card">
+                                    <div class="card__body">
+                                        <p class="fw-semibold">2021</p>
+                                        <div class="fw-normal h4">Best Coder</div>
+                                    </div>
+                                    <div class="card__foot text-right">
+                                        <img src="assets/images/clients/4.svg" alt="">
+                                    </div>
+                                </div>
+                                <!-- End:: Logo title -->
+                            </div>
+                            <div class="swiper-slide">
+                                <!-- Start:: Card [[ Find at scss/components/card.scss ]] -->
+                                <div class="card award-card">
+                                    <div class="card__body">
+                                        <p class="fw-semibold">2013</p>
+                                        <div class="fw-normal h4">Developer of the Year</div>
+                                    </div>
+                                    <div class="card__foot text-right">
+                                        <img src="assets/images/clients/5.svg" alt="">
+                                    </div>
+                                </div>
+                                <!-- End:: Card -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End:: Logo marquee -->
+                </div>
+                <!-- End:: Container -->
+            </section>
+            <!-- End:: Section -->
+
+        </main>
+        <!-- End:: Main -->
+
+        <!-- Start:: Footer [[ Find at scss/components/footer.scss ]] -->
+        <footer id="footer">
+            <!-- Start:: Container [[ Find at scss/utilities/grid.scss ]] -->
+            <div class="container">
+                <!-- Start:: Footer card [[ Find at scss/components/footer.scss ]] -->
+                <div class="footer-card">
+                    <div class="footer-top">
+                        <a role="button" class="footer-title fs-64" data-modal="#contact_modal">
+                            Get <span class="fw-light">in</span> Touch
+                        </a>
+                        <a role="button" class="footer-arrow" data-modal="#contact_modal">
+                            <img src="assets/images/icons/arrow-left-top.svg" alt="">
+                            <span class="hidden">Get in Touch</span>
+                        </a>
+                    </div>
+                    <div class="footer-content">
+                        <!-- Start:: navbar [[ Find at scss/components/navigation.scss ]] -->
+                        <nav class="navbar">
+                            <ul>
+                                <li>
+                                    <a href="about.html">About me</a>
+                                </li>
+                                <li>
+                                    <a href="resume.html">Resume</a>
+                                </li>
+                                <li>
+                                    <a href="portfolio.html">Portfolio</a>
+                                </li>
+                                <li>
+                                    <a href="services.html">Services</a>
+                                </li>
+                                <li>
+                                    <a href="blog.html">Blog</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <!-- End:: navbar -->
+
+                        <!-- Start:: Social [[ Find at scss/components/social.scss ]] -->
+                        <ul class="social">
+                            <li>
+                                <a href="#" target="_blank">
+                                    <img src="assets/images/icons/facebook.svg" class="svg" alt="">
+                                    <div class="hidden">Facebook</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">
+                                    <img src="assets/images/icons/linkedin.svg" class="svg" alt="">
+                                    <div class="hidden">Linkedin</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">
+                                    <img src="assets/images/icons/x.svg" class="svg" alt="">
+                                    <div class="hidden">X</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">
+                                    <img src="assets/images/icons/instagram.svg" class="svg" alt="">
+                                    <div class="hidden">Instagram</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">
+                                    <img src="assets/images/icons/github.svg" class="svg" alt="">
+                                    <div class="hidden">Github</div>
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- End:: Social -->
+                    </div>
+
+                    <!-- Email marquee slider  [[ Find at scss/framework/core.scss ]] -->
+                    <div id="email" class="swiper" data-marquee="true" data-space="100">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide fw-medium">ish.peter@exmaple.com</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End:: Footer card -->
+                <div class="footer-copy text-center">© Kri8thm 2024 All Rights Reserved</div>
+            </div>
+            <!-- End:: Container -->
+        </footer>
+        <!-- End:: Footer -->
+
+
+        <!-- Start:: Contact modal [[ Find at scss/components/modal.scss ]] -->
+        <div class="modal" id="contact_modal" tabindex="-1" aria-labelledby="contact_modal_label" aria-hidden="true">
+            <div class="modal__container">
+                <div class="modal__dialog">
+                    <a role="button" class="modal__close" data-close="modal">
+                        <img src="assets/images/icons/close.svg" class="svg" alt="">
+                        <div class="hidden">Close</div>
+                    </a>
+                    <div class="text-center modal__dialog__head">
+                        <h2 class="fw-normal" id="contact_modal_label">Get in <span class="fw-light">touch</span></h2>
+                        <p>Get in touch with us today to discuss your project or request more information.</p>
+                    </div>
+                    <form action="#">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Full Name</label>
+                            <input type="text" id="name" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="mail" class="form-label">Email ID</label>
+                            <input type="text" id="mail" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea name="message" id="message" rows="4" class="form-control"></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" id="contact_btn" class="button button--white">
+                                <span class="button__inner">
+                                    <span data-text="Send Now">Send Now</span>
+                                </span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- End:: Contact modal -->
+
+        <!-- Form message [[ Find at scss/components/forms.scss ]] -->
+        <div id="form_message"></div>
+
+    </div>
+
+
+    <!-- Scripts -->
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/scripts.js"></script>
+    
+</body>
+</html>
